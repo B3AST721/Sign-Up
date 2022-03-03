@@ -80,6 +80,7 @@ input:focus {
     margin-top: 32px;
     padding-bottom: 20px;
     box-shadow: 5px 10px 10px rgb(136, 135, 135);
+    padding-top: 5px;
 }
 
 .create {

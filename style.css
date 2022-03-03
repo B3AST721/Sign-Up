@@ -1,0 +1,78 @@
+@import url(//db.onlinewebfonts.com/c/fd1ad3a0f95210975d2f5607501020b5?family=Norse);
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: whitesmoke;
+}
+
+.background {
+    background-image: url(./bush.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: 50px;
+}
+
+.odin {
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    font-family: 'Norse';
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    opacity: 50%;
+    margin-top: 30%;
+    height: 100px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 69%;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-gap: 30px;
+    width: 69%;
+    font-weight: 550;
+}
+
+.first, .mail, .pw, .last, .pnum, .confirm {
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+}
+
+input {
+    width: 65%;
+}
+
+input:focus {
+    border: blue;
+}
+
+.sign-up {
+    background-color: white;
+    position: relative;
+    l;
+}
